@@ -10,12 +10,12 @@
             });
      
             /*action menu*/
-            $('#best-sellers .description').hover(function() {
-                 $(this).find('.even').hide();
+            $('#best-sellers .description').click(function() {
+                $(this).find('.even').hide();
                 $(this).find('.action-menu').show();  
             }, function () {
                  $(this).find('.even').show();
-                 $(this).find('#action-menu').hide();
+                 $(this).find('.action-menu').hide();
             });
             
      
@@ -142,7 +142,7 @@
                     count = 1;
                 }
                 else {
-                    count++;
+                    count++; 
                 }
             }, 6500);
            //twitter widget

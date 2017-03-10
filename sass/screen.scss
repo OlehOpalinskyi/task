@@ -238,11 +238,11 @@ a {
     color:#60605E;
 }
 
-#action-menu {
-    display: inline-block;
+.action-menu {
+    display: inline-block; 
 }
 
-#action-menu li {
+.action-menu li {
     padding:15px 13px;
     background-color: white;
     margin-top: 17px;
@@ -250,11 +250,11 @@ a {
     color: #8E8E8E;
 }
 
-#action-menu li:last-child {
+.action-menu li:last-child {
     color:#57C5A0;
 }
 
-#action-menu li:hover {
+.action-menu li:hover {
     color:#57C5A0;
     cursor: pointer;
 }
@@ -499,7 +499,7 @@ a {
         font-weight: 300;
         display: inline-block;
     }
-    .description #action-menu {
+    .description .action-menu {
         width:100%;
         display: none;
         float: right;

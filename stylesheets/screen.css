@@ -332,12 +332,12 @@ a {
 }
 
 /* line 241, ../sass/screen.scss */
-#action-menu {
+.action-menu {
   display: inline-block;
 }
 
 /* line 245, ../sass/screen.scss */
-#action-menu li {
+.action-menu li {
   padding: 15px 13px;
   background-color: white;
   margin-top: 17px;
@@ -346,12 +346,12 @@ a {
 }
 
 /* line 253, ../sass/screen.scss */
-#action-menu li:last-child {
+.action-menu li:last-child {
   color: #57C5A0;
 }
 
 /* line 257, ../sass/screen.scss */
-#action-menu li:hover {
+.action-menu li:hover {
   color: #57C5A0;
   cursor: pointer;
 }
@@ -648,13 +648,13 @@ a {
   display: inline-block;
 }
 /* line 502, ../sass/screen.scss */
-.newArrivals .description #action-menu {
+.newArrivals .description .action-menu {
   width: 100%;
   display: none;
   float: right;
 }
 /* line 507, ../sass/screen.scss */
-.newArrivals .description #action-menu li {
+.newArrivals .description .action-menu li {
   padding: 0 13px;
   margin-top: 10px;
 }
